@@ -37,15 +37,15 @@ additional_links:
   url: https://500px.com/bogorad
 
 - title: Home Assitant community
-  icon: 500px
+  icon: fa-500px
   url: https://community.home-assistant.io/u/bogorad/summary
 
 - title: Discord
-  icon: discord
+  icon: fa-discord
   url: https://discordapp.com/users/bogorad#0227
 
 - title: Whatsapp
-  icon: whatsapp
+  icon: fa-whatsapp
   url: https://wa.me/34657013426
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
