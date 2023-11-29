@@ -41,7 +41,7 @@ additional_links:
   url: https://community.home-assistant.io/u/bogorad/summary
 
 - title: Discord
-  icon: https://discord.com/assets/images/favicon.ico
+  icon: images/discord.png
   url: https://discordapp.com/users/bogorad#0227
 
 - title: Whatsapp
