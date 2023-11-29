@@ -33,11 +33,11 @@ xing_username: Eugene_Bogorad
 additional_links:
 
 - title: 500px
-  icon: images/500px.jpg
+  icon: fa-500px
   url: https://500px.com/bogorad
 
 - title: Home Assitant community
-  icon: fa-500px
+  icon: fa-house-user
   url: https://community.home-assistant.io/u/bogorad/summary
 
 - title: Discord
@@ -47,6 +47,31 @@ additional_links:
 - title: Whatsapp
   icon: fa-whatsapp
   url: https://wa.me/34657013426
+
+- title: GoodReads
+  icon: fa-goodreads-g
+  url: https://www.goodreads.com/user/show/23632374-eugene-bogorad
+
+- title: Quora
+  icon: fa-quora
+  url: https://www.quora.com/profile/Eugene-Bogorad
+
+- title: Telegram
+  icon: fa-telegram
+  url: https://t.me/chuck_bogorad
+
+- title: KickStarter
+  icon: fa-kickstarter
+  url: https://kickstarter.com/profile/bogorad
+
+- title: Medium
+  icon: fa-medium
+  url: https://medium.com/@bogorad
+
+- title: Pocket
+  icon: fa-get-pocket
+  url: https://getpocket.com/@bogorad
+
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
