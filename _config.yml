@@ -36,10 +36,6 @@ additional_links:
   icon: fa-500px
   url: https://500px.com/bogorad
 
-- title: Home Assitant community
-  icon: fa-house-user
-  url: https://community.home-assistant.io/u/bogorad/summary
-
 - title: Discord
   icon: fa-discord
   url: https://discordapp.com/users/bogorad#0227
