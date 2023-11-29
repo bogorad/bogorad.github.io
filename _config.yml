@@ -31,12 +31,22 @@ xing_username: Eugene_Bogorad
 
 # Additional icon links
 additional_links:
+
 - title: 500px
-  icon: https://raw.githubusercontent.com/500px/magazine/master/source/favicon.ico
+  icon: https://500px.com/favicon.ico
   url: https://500px.com/bogorad
+
 - title: Home Assitant community
   icon: https://community-assets.home-assistant.io/optimized/4X/0/a/2/0a20e9d372791856e50ccb2ed7e95d7a33d515e6_2_32x32.png
   url: https://community.home-assistant.io/u/bogorad/summary
+
+- title: Discord
+  icon: https://discord.com/assets/images/favicon.ico
+  url: https://discordapp.com/users/bogorad#0227
+
+- title: Whatsapp
+  icon: https://web.whatsapp.com/favicon-64x64.ico
+  url: https://wa.me/34657013426
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -51,9 +61,11 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi there! I live in the best city in the world, that's my current identity :)
+  Hi there! I live in Barcelona - the best city in the world, that's my current identity :)
 
-  I do art-tech, fin-tech, security tech, NFTs for normal people, and more. I am a co-founder of a small software dev company.
+  I do art-tech, fin-tech, security tech, NFTs for normal people, and more.
+
+  I am a co-founder of a small software dev company.
 
   For fun I do home-automation, look into ML-assitants, and eat lots of middle-eastern food.
 
