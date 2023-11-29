@@ -32,7 +32,7 @@ xing_username: Eugene_Bogorad
 # Additional icon links
 additional_links:
 - title: 500px
-  icon: https://iso.500px.com/wp-content/uploads/2017/10/favico.png
+  icon: https://raw.githubusercontent.com/500px/magazine/master/source/favicon.ico
   url: https://500px.com/bogorad
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
