@@ -33,7 +33,7 @@ xing_username: Eugene_Bogorad
 additional_links:
 
 - title: 500px
-  icon: https://500px.com/favicon.ico
+  icon: images/500px.jpg
   url: https://500px.com/bogorad
 
 - title: Home Assitant community
@@ -67,7 +67,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   I am a co-founder of a small software dev company.
 
-  For fun I do home-automation, look into ML-assitants, and eat lots of middle-eastern food.
+  For fun I read sci-fi and hard crime novels, watch lots of TV shows, do home-automation, look into ML-assitants, and eat lots of middle-eastern food.
 
   Contact me on Signal +1646827046 or Whatsapp +34657013426
 
