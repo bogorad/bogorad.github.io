@@ -13,9 +13,21 @@
     </li>
     {% endif %}
 
+    {% if sidebar.signal %}
+    <li class="signal"><i class="fab fa-signal"></i>
+      <a href="sgnl://signal.me/#p/{{ sidebar.signal }}" target="_blank">{{ sidebar.signal }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.whatsapp %}
     <li class="phone"><i class="fas fa-whatsapp"></i>
       <a href="https://wa.me/{{ sidebar.whatsapp }}">{{ sidebar.whatsapp }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.telegram %}
+    <li class="telegram"><i class="fab fa-telegram"></i>
+      <a href="https://t.me/{{ sidebar.telegram }}" target="_blank">{{ sidebar.telegram }}</a>
     </li>
     {% endif %}
 
@@ -28,12 +40,6 @@
     {% if sidebar.timezone %}
     <li class="timezone"><i class="fas fa-clock"></i>
       <a href="">{{ sidebar.timezone }}</a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.telegram %}
-    <li class="telegram"><i class="fab fa-telegram"></i>
-      <a href="https://t.me/{{ sidebar.telegram }}" target="_blank">{{ sidebar.telegram }}</a>
     </li>
     {% endif %}
 
