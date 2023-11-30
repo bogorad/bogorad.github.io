@@ -14,9 +14,9 @@ sidebar:
 
     # Sidebar links
     email: bogorad@gmail.com
-    phone: +1-646-827-0546
-    whatsapp: 34657013426
-    signal: +16468270546    
+    phone: "+1-646-827-0546"
+    whatsapp: "34657013426"
+    signal: "+16468270546"
     timezone: Europe/Madrid
     citizenship: Israeli
     website: bogorad.medium.com #do not add http://
@@ -29,7 +29,7 @@ sidebar:
     twitter: bogorad
     stack-overflow: 8006736 # Number/Username, e.g. 123456/alandoe
     codewars:
-    goodreads: 23632374-eugene-bogorad # Number-Username, e.g. 123456-alandoe
+    goodreads: "23632374-eugene-bogorad" # Number-Username, e.g. 123456-alandoe
     pdf: 
 
     languages:
