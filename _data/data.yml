@@ -1,7 +1,6 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
-description: Eugene "Chuck" Bogorad, Tinkerer/Consultant
 
 sidebar:
     position: right # position of the sidebar : left or right
