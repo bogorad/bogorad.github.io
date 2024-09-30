@@ -1,11 +1,10 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
-description: Eugene "Chuck" Bogorad, Tinkerer/Consultant
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
