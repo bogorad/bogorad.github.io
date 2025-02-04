@@ -47,6 +47,9 @@ sidebar:
         - item: Home Automation
           link:
 
+        - item: NixOS
+          link:
+
         - item: Middle-eastern food
           link:
 
@@ -75,7 +78,7 @@ career-profile:
       - Back in IT - facilitated a big face recognition project in a major European airport - customs enforcement (2012)
       - Then moved to crypto, helped launch a major Layer-1 blockchain (2017)
       
-      Now I run a boutique software development company. 
+      Now I run a boutique software development company, building niche security/communications solutions, fintech, blockchain stuff, and more. 
       
       My two side projects - art-tech and home-surveillance. 
 
