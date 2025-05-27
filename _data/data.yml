@@ -3,84 +3,89 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+  position: right # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Eugene "Chuck" Bogorad
-    tagline: Tinkerer/Consultant
-    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder
+  # Profile information
+  name: Eugene "Chuck" Bogorad
+  tagline: Tinkerer/Consultant
+  avatar: profile.jpg # place a 100x100 picture inside /assets/images/ folder
 
-    # Sidebar links
-    email: bogorad@gmail.com
-    phone: "+1-646-827-0546"
-    whatsapp: "+34657013426"
-    signal: "+16468270546"
-    timezone: Europe/Madrid
-    citizenship: 
-    website: bogorad.substack.com #do not add http://
-    linkedin: bogorad
-    xing: Eugene_Bogorad
-    github: bogorad
-    telegram: chuck_bogorad # add your nickname without '@' sign
-    gitlab: chuck.bogorad
-    bitbucket:
-    twitter: bogorad
-    stack-overflow: 8006736 # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: "23632374-eugene-bogorad" # Number-Username, e.g. 123456-alandoe
-    pdf: 
+  # Sidebar links
+  email: bogorad@gmail.com
+  phone: "+1-646-827-0546"
+  whatsapp: "+34657013426"
+  signal: "+16468270546"
+  timezone: Europe/Madrid
+  citizenship:
+  website: bogorad.substack.com #do not add http://
+  linkedin: bogorad
+  xing: Eugene_Bogorad
+  github: bogorad
+  telegram: chuck_bogorad # add your nickname without '@' sign
+  gitlab: chuck.bogorad
+  bitbucket:
+  twitter: bogorad
+  stack-overflow: 8006736 # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: "23632374-eugene-bogorad" # Number-Username, e.g. 123456-alandoe
+  pdf:
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
+  languages:
+    title: Languages
+    info:
+      - idiom: English
+        level: Native
 
-        - idiom: Russian
-          level: Native
+      - idiom: Russian
+        level: Native
 
-    interests:
-      title: Interests
-      info:
-        - item: Home Automation
-          link:
+  interests:
+    title: Interests
+    info:
+      - item: Home Automation
+        link:
 
-        - item: NixOS
-          link:
+      - item: NixOS
+        link: https://nixos-and-flakes.thiscute.world/
 
-        - item: Middle-eastern food
-          link:
+      - item: Middle-eastern food
+        link: https://www.google.com/search?q=shawarma&udm=2
 
-        - item: Reading hard-crime & sci-fi novels
-          link:
+      - item: Reading hard-crime & sci-fi novels
+        link:
 
-        - item: Watching TV shows about spies
-          link:
+      - item: Watching TV shows about spies
+        link:
 
 career-profile:
-    title: My Way :)
-    summary: |
-      I did many things: 
-      
-      - Started as a systems software engineer on mainframe computers (1985)
-      - Work with Social Security Administraton
-      - Then moved to embedded military systems (1990)
-      - Then videogames (1991)
-      - Switched to IT/security business (1993)
-      - Moved on to big data - the term wasn't coined till much later (1998)
-      - Worked as a political operative - our guy won, but then it all turned to crap (1999)
-      - Edited a science & technology magazine (2002)
-      - Dabbled in intellectual property rights (2005)
-      - Legal communications (2007)
-      - Spent time as a GR director for a major food corp, helped sell it to Pepsico (2008)
-      - Back in IT - facilitated a big face recognition project in a major European airport - customs enforcement (2012)
-      - Then moved to crypto, helped launch a major Layer-1 blockchain (2017)
-      
-      Now I run a boutique software development company, building niche security/communications solutions, fintech, blockchain stuff, and more. 
-      
-      My two side projects - art-tech and home-surveillance. 
+  title: My Way :)
+  summary: |
+    I did many things: 
+
+    - First computer: Sinclair Spectrum 48k (1985)
+    - Started as a systems software engineer on IBM/370 mainframe computers (1987)
+    - Work with Social Security Administration
+    - Then moved to embedded military systems (1990)
+    - First saw the internet at Oxford University (1991)
+    - Then did some videogames (1991)
+    - Switched to IT/security business (1993)
+    - Moved on to big data - the term wasn't coined till much later (1998)
+    - Worked as a political operative - our guy won, but then it all turned to crap soon afterwards (1999)
+    - Edited a science & technology magazine (2002)
+    - Dabbled in intellectual property rights (2005)
+    - A couple of failed startups (2006)
+    - Legal communications (2007)
+    - Spent time as a GR and Sustainability Director for a major food corp, helped sell it to PepsiCo (2008)
+    - Crisis manager, mostly IT and communications (2009-2011)
+    - Facilitated a big face recognition project in a major European airport - customs enforcement (2012)
+    - Then moved to crypto, helped launch a major Layer-1 blockchain (2017)
+    - Helped launch a major Layer-1 blockchain (2019-2021)
+
+    Now I run a boutique software consultancy company, building niche security/communications solutions, fintech, blockchain stuff, and more. 
+
+    My two side projects - art-tech and home-surveillance.
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
