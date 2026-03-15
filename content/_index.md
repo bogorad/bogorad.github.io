@@ -5,9 +5,15 @@ role = "Tinkerer/Consultant"
 profileImage = "images/profile.jpg"
 
 [talk]
-label = "Talk?"
-url = "https://cal.com/bogorad"
-icon = "fa-regular fa-calendar-check"
+heading = "Talk?"
+
+[[talk.links]]
+label = "Zoom - 30min"
+url = "https://cal.com/bogorad/30min-zoom"
+
+[[talk.links]]
+label = "Meet - 30/60min"
+url = "https://cal.com/bogorad/google?duration=60"
 
 [sidebar]
 languages = ["English (Native)", "Russian (Native)"]

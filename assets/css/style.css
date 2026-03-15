@@ -223,24 +223,20 @@ h1 {
     border-color: rgba(255, 255, 255, 0.1);
 }
 
-.talk-card {
-    text-align: center;
+.talk-links-card {
     margin-bottom: 20px;
 }
 
-.talk-link {
+.talk-links a {
+    color: var(--accent-color);
     text-decoration: none;
-    color: inherit;
+    transition: color 0.2s ease, text-decoration-color 0.2s ease;
 }
 
-.talk-title {
-    margin-bottom: 0;
-    border-bottom: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 1.6rem;
-    color: var(--accent-color);
+.talk-links a:hover,
+.talk-links a:focus-visible {
+    color: var(--text-primary);
+    text-decoration: underline;
 }
 
 .mt-2 {

@@ -1,12 +1,13 @@
 {{ $page := . }}
 <aside class="sidebar">
     {{ with $page.Params.talk }}
-    <div class="card talk-card">
-        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="talk-link">
-            <h3 class="talk-title">
-                {{ .label }} <i class="{{ .icon }}"></i>
-            </h3>
-        </a>
+    <div class="card talk-links-card">
+        <h3>{{ .heading }}</h3>
+        <ul class="talk-links">
+            {{ range .links }}
+            <li><a href="{{ .url | safeURL }}" target="_blank" rel="noopener noreferrer">{{ .label }}</a></li>
+            {{ end }}
+        </ul>
     </div>
     {{ end }}
 
