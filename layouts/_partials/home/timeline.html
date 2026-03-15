@@ -1,0 +1,11 @@
+<main class="timeline-container">
+    <h3>My Way :)</h3>
+    <div class="timeline">
+        {{ range site.Data.timeline.items }}
+        <div class="timeline-item">
+            <div class="timeline-year">{{ .year }}</div>
+            <div class="timeline-content">{{ .description }}</div>
+        </div>
+        {{ end }}
+    </div>
+</main>

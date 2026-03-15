@@ -1,0 +1,4 @@
+baseURL = "https://bogorad.github.io/"
+languageCode = "en-us"
+title = "Eugene 'Chuck' Bogorad"
+disableKinds = ["taxonomy", "term"]

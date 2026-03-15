@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="container">
+    {{ partial "home/profile-header.html" . }}
+
+    <div class="grid-content">
+        {{ partial "home/sidebar.html" . }}
+        {{ partial "home/timeline.html" . }}
+        {{ partial "home/contact-links.html" . }}
+    </div>
+</div>
+{{ end }}

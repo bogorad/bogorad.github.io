@@ -1,0 +1,80 @@
+[[items]]
+title = "TZ: Central European Time"
+icon = "image"
+image = "images/bcn-mini.webp"
+
+[[items]]
+title = "Email"
+href = "mailto:bogorad@gmail.com"
+icon = "fa-solid fa-envelope"
+
+[[items]]
+title = "Phone"
+href = "tel:+1-646-827-0546"
+icon = "fa-solid fa-phone"
+
+[[items]]
+title = "Signal"
+href = "https://signal.me/#p/+16468270546"
+icon = "signal"
+external = true
+
+[[items]]
+title = "WhatsApp"
+href = "https://wa.me/+34657013426"
+icon = "fa-brands fa-whatsapp"
+external = true
+
+[[items]]
+title = "Telegram"
+href = "https://t.me/chuck_bogorad"
+icon = "fa-brands fa-telegram"
+external = true
+
+[[items]]
+title = "X/Twitter"
+href = "https://twitter.com/bogorad"
+icon = "x-twitter"
+external = true
+
+[[items]]
+title = "Substack"
+href = "https://bogorad.substack.com"
+icon = "substack"
+external = true
+
+[[items]]
+title = "Newsblur"
+href = "http://bogorad.newsblur.com"
+icon = "fa-solid fa-rss"
+external = true
+
+[[items]]
+title = "Medium"
+href = "https://bogorad.medium.com"
+icon = "fa-brands fa-medium"
+external = true
+
+[[items]]
+title = "LinkedIn"
+href = "https://linkedin.com/in/bogorad"
+icon = "fa-brands fa-linkedin"
+external = true
+
+[[items]]
+title = "GitHub"
+href = "https://github.com/bogorad"
+icon = "fa-brands fa-github"
+external = true
+
+[[items]]
+title = "StackOverflow"
+href = "https://stackoverflow.com/users/8006736"
+icon = "fa-brands fa-stack-overflow"
+external = true
+
+[[items]]
+title = "Goodreads"
+href = "https://www.goodreads.com/user/show/23632374-eugene-bogorad"
+icon = "fa-brands fa-goodreads"
+external = true
