@@ -52,3 +52,7 @@
 # - linear.api-key
 # - github.org
 # - github.repo
+
+federation.remote: "http://doltsrv.lan:50051/chuck/bogorad.github.io"
+
+sync.branch: "main"
