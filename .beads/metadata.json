@@ -2,6 +2,6 @@
   "database": "dolt",
   "backend": "dolt",
   "dolt_mode": "server",
-  "dolt_database": "bogorad.github.io",
-  "project_id": "f560e6d1-6be4-468a-9ce7-fd0649222e48"
+  "dolt_database": "bogorad_github_io",
+  "project_id": "4ab2770a-5036-4fab-9e21-37665f5985bf"
 }
