@@ -108,8 +108,7 @@ h1 {
     margin-top: 10px;
 }
 
-.contact-links a,
-.contact-links .tz-button {
+.contact-links a {
     color: var(--text-primary);
     text-decoration: none;
     background: var(--card-bg);
@@ -126,58 +125,12 @@ h1 {
     border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.contact-links .tz-button {
-    appearance: none;
-    cursor: pointer;
-}
-
-.tz-control {
-    position: relative;
-    width: 45px;
-    height: 45px;
-}
-
-.tz-bubble {
-    position: absolute;
-    left: 50%;
-    bottom: calc(100% + 10px);
-    transform: translate(-50%, 8px);
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-    white-space: nowrap;
-    padding: 6px 10px;
-    border-radius: 999px;
-    background: rgba(30, 41, 59, 0.96);
-    color: var(--text-primary);
-    font-size: 0.78rem;
-    font-weight: 600;
-    border: 1px solid rgba(56, 189, 248, 0.35);
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
-    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
-    z-index: 20;
-}
-
-.tz-control.is-visible .tz-bubble {
-    opacity: 1;
-    visibility: visible;
-    transform: translate(-50%, 0);
-}
-
 .contact-links a:hover {
     background: var(--accent-color);
     color: #fff;
     box-shadow: var(--accent-glow);
     transform: translateY(-3px);
     border-color: var(--accent-color);
-}
-
-.contact-links .tz-icon {
-    background-image: var(--contact-image);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: 2px solid var(--card-bg);
 }
 
 /* Layout Grid */

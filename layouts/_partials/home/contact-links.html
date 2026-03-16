@@ -1,16 +1,9 @@
 <aside class="right-sidebar">
     <div class="contact-links">
         {{ range site.Data.contacts.items }}
-            {{ if .href }}
             <a href="{{ .href | safeURL }}" title="{{ .title }}"{{ if .external }} target="_blank" rel="noopener noreferrer"{{ end }}>
                 {{ partial "home/contact-icon.html" . }}
             </a>
-            {{ else }}
-            <div class="tz-control" data-tz-control>
-                <button type="button" title="{{ .title }}" aria-label="{{ .title }}" class="tz-icon tz-button" data-tz-button style="--contact-image: url('{{ .image | relURL }}');"></button>
-                <span class="tz-bubble" data-tz-bubble aria-hidden="true">{{ replaceRE "^TZ:\\s*" "" .title }}</span>
-            </div>
-            {{ end }}
         {{ end }}
     </div>
 </aside>

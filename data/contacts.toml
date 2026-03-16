@@ -1,9 +1,4 @@
 [[items]]
-title = "TZ: Central European Time"
-icon = "image"
-image = "images/bcn-mini.webp"
-
-[[items]]
 title = "Email"
 href = "mailto:bogorad@gmail.com"
 icon = "fa-solid fa-envelope"

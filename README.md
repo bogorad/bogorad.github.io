@@ -43,9 +43,6 @@ This repository contains the live Hugo source for `https://bogorad.github.io/`.
 - `layouts/_partials/head.html`
   - Meta tags, page title, Font Awesome link, and Hugo Pipes stylesheet link.
 
-- `layouts/_partials/scripts.html`
-  - Loads the site JavaScript through Hugo Pipes.
-
 - `layouts/_partials/home/profile-header.html`
   - Hero area with photo, name, role, and bio.
 
@@ -69,15 +66,10 @@ This repository contains the live Hugo source for `https://bogorad.github.io/`.
   - Hugo processes this through Pipes, minifies it, fingerprints it, and writes the built file under `public/css/`.
   - Edit this file for design changes.
 
-- `assets/js/site.js`
-  - Small behavior layer for touch and mobile interactions.
-  - Right now it controls the timezone icon bubble timeout behavior.
-
 - `static/images/`
   - Static image source files copied as-is by Hugo.
   - Current important files:
     - `profile.jpg`
-    - `bcn-mini.webp`
 
 ## Generated output
 
@@ -109,7 +101,7 @@ This repository contains the live Hugo source for `https://bogorad.github.io/`.
 - Change the visual design:
   - edit `assets/css/style.css`
 
-- Change the profile or timezone images:
+- Change the profile image:
   - replace files in `static/images/`
   - update the path in content or data if needed
 
