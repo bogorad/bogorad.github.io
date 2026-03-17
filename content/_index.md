@@ -1,7 +1,7 @@
 +++
 title = "Eugene 'Chuck' Bogorad"
 name = "Eugene 'Chuck' Bogorad"
-role = "Tinkerer/Consultant"
+role = "Consultant/Sloperator"
 profileImage = "images/profile.jpg"
 
 [talk]
