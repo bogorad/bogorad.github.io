@@ -2,6 +2,9 @@
   "database": "dolt",
   "backend": "dolt",
   "dolt_mode": "server",
+  "dolt_server_host": "doltsrv.lan",
+  "dolt_server_port": 3307,
+  "dolt_server_user": "root",
   "dolt_database": "bogorad_github_io",
-  "project_id": "4ab2770a-5036-4fab-9e21-37665f5985bf"
+  "project_id": "017c26cc-b786-42d4-8ca2-dfd26d8b113b"
 }
