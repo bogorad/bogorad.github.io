@@ -40,7 +40,7 @@ external = true
 
 [[items]]
 title = "Newsblur"
-href = "http://bogorad.newsblur.com"
+href = "https://bogorad.newsblur.com"
 icon = "fa-solid fa-rss"
 external = true
 

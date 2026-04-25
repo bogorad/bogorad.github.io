@@ -3,6 +3,7 @@ title = "Eugene 'Chuck' Bogorad"
 name = "Eugene 'Chuck' Bogorad"
 role = "Consultant/Sloperator"
 profileImage = "images/profile.jpg"
+description = "Eugene Bogorad is a consultant building niche security, communications, fintech, and blockchain solutions."
 
 [talk]
 heading = "Talk?"
