@@ -1,1 +1,0 @@
-After changes, verify with `hugo --panicOnWarning --noBuildLock --cleanDestinationDir`. For local UI checks, use `hugo server --bind 127.0.0.1 --noBuildLock`. Do not hand-edit generated `public/` output. Respect repo instruction to use `./temp/` instead of `/tmp/`.
