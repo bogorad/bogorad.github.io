@@ -50,10 +50,10 @@ This repository contains the live Hugo source for `https://bogorad.github.io/`.
   - Left sidebar cards: Talk, Interests, Languages.
 
 - `layouts/_partials/home/timeline.html`
-  - Center timeline built from `site.Data.timeline.items`.
+  - Center timeline built from `hugo.Data.timeline.items`.
 
 - `layouts/_partials/home/contact-links.html`
-  - Right contact rail built from `site.Data.contacts.items`.
+  - Right contact rail built from `hugo.Data.contacts.items`.
 
 - `layouts/_partials/home/contact-icon.html`
   - Icon rendering helper.
