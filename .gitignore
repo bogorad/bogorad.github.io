@@ -1,13 +1,10 @@
-/public/
-/resources/_gen/
-/.hugo_build.lock
-
-# Dolt database files (added by bd init)
-.dolt/
 *.db
-tmp/
-.temp/
-
-# Beads / Dolt files (added by bd init)
 .beads-credential-key
 .beads/dolt-config.log
+.beads/proxieddb/
+.dolt/
+.temp/
+/.hugo_build.lock
+/public/
+/resources/_gen/
+tmp/
