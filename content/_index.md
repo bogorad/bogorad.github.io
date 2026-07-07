@@ -9,6 +9,10 @@ description = "Eugene Bogorad is a consultant building niche security, communica
 heading = "Talk?"
 
 [[talk.links]]
+label = "Signal - 60min"
+url = "https://cal.com/bogorad/meeting-signal"
+
+[[talk.links]]
 label = "Zoom - 30min"
 url = "https://cal.com/bogorad/30min-zoom"
 

@@ -239,24 +239,6 @@ h1 {
     text-decoration: underline;
 }
 
-.talk-fallback {
-    color: var(--text-secondary);
-    font-size: 0.95rem;
-    line-height: 1.5;
-    margin-top: 16px;
-}
-
-.talk-fallback a {
-    color: var(--accent-color);
-    text-decoration: none;
-}
-
-.talk-fallback a:hover,
-.talk-fallback a:focus-visible {
-    color: var(--text-primary);
-    text-decoration: underline;
-}
-
 .mt-2 {
     margin-top: 25px;
 }
