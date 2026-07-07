@@ -1,12 +1,12 @@
 [[items]]
 title = "Email"
 href = "mailto:bogorad@gmail.com"
-icon = "fa-solid fa-envelope"
+icon = "email"
 
 [[items]]
 title = "Phone"
 href = "tel:+1-646-827-0546"
-icon = "fa-solid fa-phone"
+icon = "phone"
 
 [[items]]
 title = "Signal"
@@ -17,13 +17,13 @@ external = true
 [[items]]
 title = "WhatsApp"
 href = "https://wa.me/+34657013426"
-icon = "fa-brands fa-whatsapp"
+icon = "whatsapp"
 external = true
 
 [[items]]
 title = "Telegram"
 href = "https://t.me/chuck_bogorad"
-icon = "fa-brands fa-telegram"
+icon = "telegram"
 external = true
 
 [[items]]
@@ -41,35 +41,35 @@ external = true
 [[items]]
 title = "Newsblur"
 href = "https://bogorad.newsblur.com"
-icon = "fa-solid fa-rss"
+icon = "rss"
 external = true
 
 [[items]]
 title = "Medium"
 href = "https://bogorad.medium.com"
-icon = "fa-brands fa-medium"
+icon = "medium"
 external = true
 
 [[items]]
 title = "LinkedIn"
 href = "https://linkedin.com/in/bogorad"
-icon = "fa-brands fa-linkedin"
+icon = "linkedin"
 external = true
 
 [[items]]
 title = "GitHub"
 href = "https://github.com/bogorad"
-icon = "fa-brands fa-github"
+icon = "github"
 external = true
 
 [[items]]
 title = "StackOverflow"
 href = "https://stackoverflow.com/users/8006736"
-icon = "fa-brands fa-stack-overflow"
+icon = "stack-overflow"
 external = true
 
 [[items]]
 title = "Goodreads"
 href = "https://www.goodreads.com/user/show/23632374-eugene-bogorad"
-icon = "fa-brands fa-goodreads"
+icon = "goodreads"
 external = true

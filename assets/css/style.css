@@ -68,7 +68,7 @@ body {
 h1 {
     font-size: 2.2rem;
     font-weight: 900;
-    letter-spacing: -0.05em;
+    letter-spacing: 0;
     margin-bottom: 10px;
     background: var(--gradient-text);
     -webkit-background-clip: text;
@@ -82,7 +82,8 @@ h1 {
     font-weight: 600;
     margin-bottom: 25px;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0;
+    overflow-wrap: anywhere;
 }
 
 .bio {
@@ -103,7 +104,7 @@ h1 {
 .contact-links {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
     flex-wrap: wrap;
     margin-top: 10px;
 }
@@ -112,25 +113,45 @@ h1 {
     color: var(--text-primary);
     text-decoration: none;
     background: var(--card-bg);
-    padding: 0;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    display: flex;
+    min-height: 44px;
+    border-radius: 8px;
+    display: inline-flex;
     align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 9px 12px;
+    font-size: 0.95rem;
     font-weight: 600;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    line-height: 1.2;
+    transition: color 0.25s ease, background 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
     border: 1px solid rgba(255, 255, 255, 0.05);
+    flex: 1 1 145px;
+    max-width: 190px;
 }
 
-.contact-links a:hover {
+.contact-icon {
+    width: 20px;
+    height: 20px;
+    flex: 0 0 20px;
+    display: block;
+}
+
+.contact-label {
+    overflow-wrap: anywhere;
+}
+
+.contact-links a:hover,
+.contact-links a:focus-visible {
     background: var(--accent-color);
     color: #fff;
     box-shadow: var(--accent-glow);
     transform: translateY(-3px);
     border-color: var(--accent-color);
+}
+
+.contact-links a:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 3px;
 }
 
 /* Layout Grid */
@@ -142,11 +163,18 @@ h1 {
 
 @media (min-width: 1000px) {
     .grid-content {
-        grid-template-columns: 280px 1fr 60px;
+        grid-template-columns: 280px minmax(0, 1fr) 180px;
     }
 
     .right-sidebar .contact-links {
         flex-direction: column;
+        align-items: stretch;
+    }
+
+    .right-sidebar .contact-links a {
+        width: 100%;
+        max-width: none;
+        flex: 0 0 auto;
     }
 }
 
@@ -157,6 +185,25 @@ h1 {
 
     .right-sidebar {
         grid-column: 1 / -1;
+    }
+
+    .right-sidebar .contact-links {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 520px) {
+    h1 {
+        font-size: 1.9rem;
+    }
+
+    .subtitle {
+        font-size: 1.25rem;
+    }
+
+    .contact-links a {
+        max-width: none;
+        flex-basis: 100%;
     }
 }
 
@@ -188,6 +235,24 @@ h1 {
 
 .talk-links a:hover,
 .talk-links a:focus-visible {
+    color: var(--text-primary);
+    text-decoration: underline;
+}
+
+.talk-fallback {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-top: 16px;
+}
+
+.talk-fallback a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.talk-fallback a:hover,
+.talk-fallback a:focus-visible {
     color: var(--text-primary);
     text-decoration: underline;
 }
@@ -264,7 +329,7 @@ li::before {
     color: var(--accent-color);
     margin-bottom: 4px;
     font-size: 1.1rem;
-    letter-spacing: 0.05em;
+    letter-spacing: 0;
 }
 
 .timeline-content {

@@ -13,7 +13,6 @@
 <meta property="og:image" content="{{ . | absURL }}">
 {{ end }}
 <meta name="twitter:card" content="summary">
-<link rel="stylesheet" href="{{ `vendor/fontawesome/6.4.0/css/all.min.css` | relURL }}">
 {{ with resources.Get "css/style.css" }}
     {{ $styles := . | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}">

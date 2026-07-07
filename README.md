@@ -6,7 +6,7 @@ This repository contains the live Hugo source for `https://bogorad.github.io/`.
 
 - `hugo.toml`
   - Site-level Hugo config only.
-  - Keep `baseURL`, `languageCode`, `title`, and `disableKinds` here.
+  - Keep `baseURL`, `locale`, `title`, and `disableKinds` here.
   - Do not put homepage copy or long lists here.
 
 - `content/_index.md`

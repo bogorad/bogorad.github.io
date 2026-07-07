@@ -3,6 +3,7 @@
         {{ range hugo.Data.contacts.items }}
             <a href="{{ .href | safeURL }}" title="{{ .title }}" aria-label="{{ .title }}"{{ if .external }} target="_blank" rel="noopener noreferrer"{{ end }}>
                 {{ partial "home/contact-icon.html" . }}
+                <span class="contact-label">{{ .title }}</span>
             </a>
         {{ end }}
     </div>
